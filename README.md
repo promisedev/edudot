@@ -1,0 +1,2 @@
+### `SCHOLARSHIP WEBSITE`
+## `This is a scholarship website that provide list of proven scholarship opportunities. In this website you can access visa application procedure of five major countries and how to apply.`

@@ -1,0 +1,224 @@
+/* /////////////scholarship page css////////////// */
+.country_cont{ width: 100%; height: auto; background: none; margin-top: 5%;}
+@media screen and (max-width:720px) {
+   .country_cont{display: flex;background:none;}}
+
+/* ///////////////////////// */
+.filter_div2{ width: 9%;display:none; background: none; 
+     margin-left: 62%;  text-align: center; cursor: pointer;}
+ @media screen and (max-width:720px) {
+    .filter_div2{width: 6%;height: 25px; display: block;}}
+@media screen and (max-width:600px) {
+    .filter_div2{width: 6%;height: 25px; display: block;}}
+@media screen and (max-width:500px) {
+    .filter_div2{width: 6%;height: 24px; display: block;}}
+  @media screen and (max-width:400px) {
+    .filter_div2{width: 7%;height: 20px; display: block;}}   
+/* ////////////// */
+.filter_div2 img{ width: 55%; height: 55%;}
+.filter_item_cont{ width: 90%; height: 0px; background:rgb(19, 20, 29);
+margin-left: 9%;display: flex; opacity: 0; position: absolute; transition: 0.5s ease-in-out;}
+
+.show_filter{opacity: 1; transition: 0.5s ease-in-out;height: 12%}
+/*  */
+.filter_item_cont ul{ list-style-type: none; width: 100%;
+      background: none; }
+.filter_item_cont li{ display: inline-block ; margin-right: 4%; 
+color: rgb(128, 116, 5); font-size: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+; background: rgb(33, 32, 47); padding: 0px 4px 0px 4px;
+ border-radius: 6px; cursor: pointer;}
+/* ////////// */
+.country{ width: 14%; height: 30px;border-radius: 9px; border:  2px solid rgb(7, 23, 39);
+    margin-left: 5% ; text-align: center; padding-top: 6px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px; color: rgb(7, 23, 39);}
+ @media screen and (max-width:1000px) {
+      .country{width: 21%; height: 30px; font-size: 13px;}}   
+@media screen and (max-width:800px) {
+      .country{width: 25%; height: 30px; font-size: 13px;}}
+    @media screen and (max-width:720px) {
+      .country{width: 20%; height: 20px; font-size: 10px; border:none}}
+/* /////////////////////////// */
+.country span{display: inline-block; position: relative; top: 4px;}
+@media screen and (max-width:720px) {
+.country span{top:2px}}
+/* ///////////////////////// */
+.country img{width: 10px; height: 18px;}
+@media screen and (max-width:720px) {
+.country img{width: 6px; height: 11px;}}
+     /* ///////////////////////// */
+/* scholarship page css */
+
+.filter_div{width: 50%; height: auto; margin-top: 4%; margin-left: 5%;}
+
+@media screen and (max-width:720px) {
+     .filter_div{display:none}}
+
+     /* ////////////////// */
+.filter_div button{ width: auto; height: 30px; background: none;
+     border-radius: 9px; border:2px solid rgb(128, 116, 5); color: rgb(128, 116, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ; font-size: 13px; margin-left: 3%; display: inline-block;}
+.s_display_div{width: 100%; height: auto; display: flex; justify-content: center;
+     align-items: center; margin-top: 5%; background: none; flex-wrap: wrap;}
+
+@media screen and (max-width:720px) {
+    .s_display_div{flex-direction: column;}}
+     /* ///////////////////////////////// */
+.s_display_div article{ width: 25%;height: 250px; background: none;margin-left: 3%;}
+
+@media screen and (max-width:2000px) {
+    .s_display_div article {width: 20%;height: 220px;}}
+@media screen and (max-width:1600px) {
+    .s_display_div article {width: 20%;height: 190px;}}
+@media screen and (max-width:1400px) {
+    .s_display_div article {width: 20%;height: 180px;}}
+@media screen and (max-width:1200px) {
+    .s_display_div article {width: 27%;height: 180px;}}    
+@media screen and (max-width:1000px) {
+    .s_display_div article {width: 27%;height: 180px;}}
+@media screen and (max-width:900px) {
+    .s_display_div article {width: 40%;height: 200px;}}
+@media screen and (max-width:800px) {
+    .s_display_div article {width: 45%;height: 200px;}}
+@media screen and (max-width:720px) {
+    .s_display_div article {width: 85%;height: 350px;}}
+@media screen and (max-width:600px) {
+    .s_display_div article {width: 85%;height: 320px;}}
+@media screen and (max-width:500px) {
+    .s_display_div article {width: 85%;height: 250px;}}
+@media screen and (max-width:400px) {
+    .s_display_div article {width: 85%;height: 250px;}}
+/* ////////////////////////////// */
+.s_img2{width: 100%; height: 70%; background: rgb(7, 23, 39); border-radius: 9px;}
+
+.s_category2{ width: 35%; height: 25px; position:relative; 
+background: rgb(238, 234, 234); display: inline-block; border-radius: 9px;
+top: 70%; margin-left: 5%; text-align: center; padding-top: 1%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 12px; color: rgb(11, 24, 65); font-weight: bold;}
+
+@media screen and (max-width:2000px) {
+   .s_category2{width: 40%;}}
+@media screen and (max-width:1100px) {
+   .s_category2{width: 40%;}}
+ @media screen and (max-width:900px) {
+   .s_category2{width: 35%;}}
+@media screen and (max-width:720px) {
+   .s_category2{width: 35%;}}
+ /* //////////////////////////// */
+.s_country2{width: 25%; height: 25px; background: rgb(238, 234, 234);
+position: relative;display: inline-block; border-radius: 9px; top:55%; margin-left: 60%;
+padding-top: 1%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 12px; color: rgb(11, 24, 65); font-weight: bold;text-align: center;}
+
+
+
+
+ @media screen and (max-width:2000px) {
+   .s_country2{top: 50%;}}
+@media screen and (max-width:900px) {
+   .s_country2{top: 51%;}}
+@media screen and (max-width:720px) {
+   .s_country2{top: 55%;}}
+ /* ///////////////////////// */
+.s_title2{ width: 80%; height: auto; margin-left: 5%; margin-top: 3%;}
+.s_title2 span{font-family: Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri; font-size: 16px; font-weight: bold ;
+color: rgb(9, 94, 105);transition: 0.7s ease-in-out; cursor: pointer;}
+.s_title2 span:hover{letter-spacing: 0.4px; transition: 0.7s ease-in-out;}
+
+/* scholorship form link css */
+.s_application_form{ background: none;}
+.s_application_form button{ border:none; background: none; width: auto;text-align: left;}
+
+
+/* scholarship application page css  */
+.s_application_cont{width: 100%; height: auto; background: none;margin-top: 5%;}
+.s_application_cont .title{width: 80%; background: none; margin-left: 5%;}
+
+@media screen and (max-width:720px) {
+    .s_application_cont .title{width: 70%;}}
+
+    /* ////////////////////// */
+@media screen and (max-width:720px) {
+    .s_application_cont .title h3{ font-size: 14px;}}
+    @media screen and (max-width:500px) {
+    .s_application_cont .title h3{ font-size: 12px;}}
+/* ///////////////////// */
+.application_body{width: 100%; height: auto; display: flex; flex-direction: column;
+background: none;}
+.s_application_img{ width: 40%; height: 280px; background: #ddd;
+     border-radius: 9px; margin-top: 4%; margin-left: 5%;}
+
+
+
+@media screen and (max-width:1500px) {
+    .s_application_img{width: 48%; height: 270px;}}
+
+    @media screen and (max-width:1200px) {
+    .s_application_img{width: 50%; height: 250px;}}
+ @media screen and (max-width:900px) {
+    .s_application_img{width: 50%; height: 220px;}}    
+@media screen and (max-width:720px) {
+    .s_application_img{width: 90%; height: 240px;}}
+@media screen and (max-width:600px) {
+    .s_application_img{width: 90%; height: 220px;}}
+@media screen and (max-width:500px) {
+    .s_application_img{width: 90%; height: 200px;}}
+/* //////////////////////////////// */
+.s_application_desc{ width: 100%; height: auto; background: none; display: flex;
+margin-top: 5%; margin-bottom: 4%;}
+
+@media screen and (max-width:720px) {
+  .s_application_desc{ flex-direction: column;}  
+}
+/* ////////////////////// */
+.s_application_desc .item1{ width: 50%; height: auto; background:rgb(5, 17, 37);
+border-left: none; margin-left: 5%; border-radius: 4px;}
+
+@media screen and (max-width:720px) {
+    .s_application_desc .item1{border: none; width: 90%; margin-bottom: 5%;background:rgb(255, 255, 255);}}
+/* /////////////////// */
+.item1 p{ color: rgb(255, 255, 255); font-family:Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri
+; margin-left: 5%; font-size: 18px; padding-right: 16px;width: 90%;}
+
+@media screen and (max-width:720px) {
+ .item1 p{ color: rgb(32, 85, 92);}   
+}
+.item1 span{ color: rgb(116, 112, 112); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-left: 5%; font-size: 14px;}
+
+@media screen and (max-width:720px) {
+   .item1 span{font-size: 13px;}}
+/* //////////////////////////// */
+.s_application_desc .item2{ width: 40%; height: auto; background:rgb(255, 255, 255);
+border-left: 3px solid rgb(192, 192, 190); margin-left: 5%;border-radius: 4px;}
+
+@media screen and (max-width:720px) {
+    .s_application_desc .item2{border: none; width: 90%; margin-bottom: 5%;background:rgb(255, 255, 255);}}
+/* /////////////////// */
+
+.item2 p{ color: rgb(32, 85, 92); font-family:Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri
+; margin-left: 5%; font-size: 18px;width: 90%; }
+/* .item2 ul{list-style-type:circle;} */
+.item2 span{ color: rgb(116, 112, 112); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-left: 5%; font-size: 14px; }
+@media screen and (max-width:720px) {
+   .item2 span{font-size: 13px;}}
+   /* ////////////////////////////// */
+.apply_div{width: 80%; height: auto; margin-left: 5%; margin-top: 2%; margin-bottom: 4%;
+background: none;}
+.apply_div button{ width: 19%; height: 30px; background: none; border-radius: 8px;
+    border: 1px solid rgb(7, 23, 39); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px ;transition: 0.4s ease-in-out; color: rgb(7, 23, 39); }
+@media screen and (max-width:720px){
+.apply_div button{ width: 33%;}}
+    
+/* ///// */
+.apply_div button:hover{width: 23%; transition: 0.4s ease-in-out; background:rgb(7, 23, 39) ; color:#fff;}
+ @media screen and (max-width:720px){
+.apply_div button:hover{ width: 36%;}}
+
+
+
+
+
+

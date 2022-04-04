@@ -1,0 +1,121 @@
+.visa_cont{width:100%; height: auto; display: flex; flex-wrap: wrap;margin-top: 5%; z-index: 10 }
+
+@media screen and (max-width:720px) {
+  .visa_cont{flex-direction: column;}}
+  /* /////////////////////// */
+.visa_divs{ height: auto; width: auto; background: #fff; 
+    border-radius: 9px; margin-left: 5%; margin-bottom: 2%;}
+
+
+/* ////////////////////////////// */
+.v_title{width: 90%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;font-size:20px; color: rgb(32,85,92) ; font-weight: bold; margin-left: 5%;
+margin-top: 4%;}
+.v_desc{width: 90%; font-family:  Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri;
+    font-size:13px; padding:9px; margin-left: 5%; height: fit-content;
+color: rgb(121, 122, 122);}
+.v_desc a{ color: rgb(128, 112,5); font-weight: bold;}
+
+
+.v_desc ul{color: rgb(121,122,122);}
+.v_desc li{ font-size: 13px;}
+
+
+.v_div1{width: 50%; height: fit-content;}
+@media screen and (max-width:720px) {
+    .v_div1{width:90%;}}
+.v_div2{width: 30%;height: fit-content;}
+@media screen and (max-width:720px) {
+    .v_div2{width:90%;}}
+.v_div3{width: 50%;height: fit-content;}
+@media screen and (max-width:720px) {
+    .v_div3{width:90%;}}
+.v_div4{width: 30%;height: fit-content;}
+@media screen and (max-width:720px) {
+    .v_div4{width:90%;}}
+/* //////////////////////////////// */
+.v_btn{display: flex; width: 80%; flex-direction: column;
+     margin-left: 5%; margin-bottom: 5%;}
+.visa_btn {width: 44%; background: none; border-radius: 8px; 
+    border: 1.5px solid rgb(128, 112,5); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px; color: rgb(128, 112,5); margin-top: 5%;transition: 0.5s ease-in-out;
+    text-decoration: none; text-align: center;}
+
+@media screen and (max-width:1000px) {
+      .visa_btn {width: 60%;border: 1px solid rgb(128, 112,5);}}
+@media screen and (max-width:900px) {
+      .visa_btn {width: 60%;border: 1px solid rgb(128, 112,5);}}
+@media screen and (max-width:800px) {
+      .visa_btn {width: 60%;border: 1px solid rgb(128, 112,5);}}
+    @media screen and (max-width:720px) {
+      .visa_btn {width: 40%;border: 1.5px solid rgb(128, 112,5)}}
+/* /////////////////////////////// */
+.visa_btn:hover{width: 47%; border-radius: 4px;
+     transition: 0.5s ease-in-out; background: rgb(128, 112,5); 
+     color: #fff;}
+@media screen and (max-width:1000px) {
+      .visa_btn:hover {width: 63%;}}
+@media screen and (max-width:900px) {
+      .visa_btn:hover {width: 63%;}}
+@media screen and (max-width:800px) {
+      .visa_btn:hover {width: 63%;}}
+    @media screen and (max-width:720px) {
+      .visa_btn:hover {width: 43%;}}
+      /* //////////////////////////////////////////// */
+/* visa page css */
+.visa_p_cont{width: 80%; height: auto; margin-left: 5%; margin-top: 5%; 
+    background: none;}
+@media screen and (max-width:720px) {
+      .visa_p_cont{width: 90%; margin-left: 5%;}}
+    /* ////////////////////////////// */
+.v_desc{width: 90%; background: none; margin-top: 2%; height: auto;
+    display: flex; margin-left: 0%;}
+    .v_desc div{ width: 60%; background:rgb(235, 240, 240) ;
+         border-radius: 9px; padding: 19px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-size: 13px; color: rgb(70, 73, 73); }
+
+    @media screen and (max-width:720px) {
+      .v_desc div{width: 90%;}}
+         /* ///////////////////// */
+    .v_desc a {color: rgb(128, 112,5);}
+    .v_desc span{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px; color: rgb(70, 73, 73);}
+    .v_require{width: 90%; height: auto;}
+    .v_require li{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px; line-height: 23px;}
+    .v_require div {  margin-top:5%;font-family:Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri;
+    font-size: 20px; color: rgb(8, 14, 71);}
+    .v_require p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px; font-weight: bold;}
+    .v_require a{color: rgb(128, 112,5);}
+.visa_apply{background:none;display:flex; width: 90%; height: auto; margin-top: 6%; margin-bottom: 4%;}
+
+@media screen and (max-width:720px) {
+   .visa_apply{width:100%; flex-direction: column;
+justify-content: center; align-items: center;}}
+/* //////////////////////////// */
+
+.visa_apply a {width:40%; background: none;text-align: center; transition: 0.4s ease-in-out; border-radius: 9px; margin-right: 2%;}
+@media screen and (max-width:720px) {
+   .visa_apply a {width:70%;  margin-bottom: 2%;text-align: center; margin-right: 0%;}}
+
+.visa_apply .learn{ width: 100%; background:rgb(97, 98, 98); border:none; height: 32px;border-radius: 8px; 
+    font-size: 14px; transition: 0.4s ease-in-out; color:rgb(255, 255, 255);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+@media screen and (max-width:720px) {
+   .visa_apply .learn {width:100%;}}
+ 
+     
+/* ////////////////////////////////// */
+.visa_apply .apply{width: 100%; height: 32px;border-radius: 8px; background: none; border: 2px solid rgb(7, 23, 39);
+    font-size: 14px; transition: 0.4s ease-in-out; color:rgb(7, 23, 39);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+ @media screen and (max-width:720px) {
+   .visa_apply .apply {width:100%;  }}
+/* ////////////////////////////////// */   
+.visa_apply a:hover{width: 45%; transition: 0.4s ease-in-out;}
+@media screen and (max-width:720px) {
+.visa_apply a:hover{width: 75%; transition: 0.4s ease-in-out;   }}
+ .visa_apply .apply:hover{color:#fff;background:rgb(7, 23, 39);}
+  .visa_apply .learn:hover{background: rgb(40, 41, 41);}
+  /* ///////////////////end */
